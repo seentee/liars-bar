@@ -1,0 +1,51 @@
+﻿<Window x:Class="liars_bar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:liars_bar"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Player1Text" HorizontalAlignment="Left" VerticalAlignment="Top" TextAlignment="Center" FontSize="16" Margin="10">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="1" Opacity="0.7"/>
+            </TextBlock.Effect>
+            <Run x:Name="Player1Name" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run x:Name="Player1Values"/>
+        </TextBlock>
+        <TextBlock x:Name="Player2Text" HorizontalAlignment="Right" VerticalAlignment="Top" TextAlignment="Center" FontSize="16" Margin="10">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="1" Opacity="0.7"/>
+            </TextBlock.Effect>
+            <Run x:Name="Player2Name" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run x:Name="Player2Values"/>
+        </TextBlock>
+        <TextBlock x:Name="Player3Text" HorizontalAlignment="Left" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="16" Margin="10">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="1" Opacity="0.7"/>
+            </TextBlock.Effect>
+            <Run x:Name="Player3Name" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run x:Name="Player3Values"/>
+        </TextBlock>
+        <TextBlock x:Name="Player4Text" HorizontalAlignment="Right" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="16" Margin="10">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="1" Opacity="0.7"/>
+            </TextBlock.Effect>
+            <Run x:Name="Player4Name" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run x:Name="Player4Values"/>
+        </TextBlock>
+        <TextBlock x:Name="CurrentBetText" HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center" FontSize="16" Margin="10">
+            <TextBlock.Effect>
+                <DropShadowEffect Color="Black" BlurRadius="0" ShadowDepth="1" Opacity="0.7"/>
+            </TextBlock.Effect>
+            <Run x:Name="CurrentBetName" FontWeight="Bold"/>
+            <LineBreak/>
+            <Run x:Name="CurrentBetValue"/>
+        </TextBlock>
+    </Grid>
+</Window>

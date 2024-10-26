@@ -1,0 +1,6 @@
+liars-bar.csproj.user
+/obj
+/.vs
+/.vscode
+/bin
+*.dll
